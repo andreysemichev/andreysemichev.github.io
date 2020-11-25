@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face {
+  font-family: "NormaticaDisplay";
+  src: url("https://andreysemichev.github.io/site/NormaticaDisplay-Light.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Iframe_body .LNIframe .info-wrap {
+  padding: 0;
+  margin: 0;
+}
+
+.Iframe_body .LNIframe .name {
+  font-family: 'Playfair Display', serif;
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+  max-width: 500px;
+  padding: 0;
+}
+
+.Iframe_body .LNIframe .countdownHolder {
+  padding: 0 15px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 50px !important;
+  margin-right: 50px !important;
+}
+
+.Iframe_body .LNIframe .digit.static {
+  box-shadow: none;
+  background-image: none;
+}
+
+.Iframe_body .LNIframe .digit {
+  font-family: 'Playfair Display', serif;
+  background-color: transparent;
+}
+
+.Iframe_body .LNIframe .description {
+  padding: 0;
+  margin: 0;
+  font-family: 'NormaticaDisplay', serif;
+  font-size: 11px;
+  margin-left: 50px;
+  color: #ffffff;
+}
+
+.Iframe_body .LNIframe .description-wrap {
+  font-family: 'NormaticaDisplay', serif;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+.Iframe_body .LNIframe .description-date {
+  font-family: 'NormaticaDisplay', serif;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+.Iframe_body .LNIframe .player {
+  background-image: url("http://localhost:5501/site/afisha.jpg") !important; 
+  background-size: cover !important;
+  background-position-x: 85%;
+}
+
+.Iframe_body .LNIframe .auth_window {
+  transform: translateY(-50%);
+  left: 0;
+  margin-left: 50px;
+  border-radius: 30px;
+}
+
+.Iframe_body .LNIframe .auth_header {
+  background-color: #ffffff;
+}
+
+.Iframe_body .LNIframe .auth_header .title {
+  color: #000000;
+  text-transform: none;
+  font-family: 'NormaticaDisplay', serif;
+  font-size: 18px;
+}
+
+
+.Iframe_body .LNIframe .auth_body {
+  background-color: #000000;
+}
+
+.Iframe_body .LNIframe .auth_enter_code {
+  color: #ffffff;
+  font-family: 'NormaticaDisplay', serif;
+  text-transform: none;
+  font-size: 16px;
+}
+
+.Iframe_body .LNIframe .auth .inp4 {
+  background-color: #ffffff;
+  outline: none;
+}
+
+.Iframe_body .LNIframe .auth .sbtn {
+  font-family: 'NormaticaDisplay', serif;
+  text-transform: none;
+  font-size: 16px;
+  background: none;
+  border: 1px solid #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+  outline: none;
+}
+
+@media screen and (max-width: 680px) {
+  #countdown {
+      font: 24px/1.5 w500;
+  }
+
+  .Iframe_body .LNIframe .name {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .Iframe_body .LNIframe .description-date {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .Iframe_body .LNIframe .description {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .Iframe_body .LNIframe .auth_window {
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-height: 490px) {
+  .Iframe_body .LNIframe .name {
+    max-width: 1000px;
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-height: 410px) {
+  .Iframe_body .LNIframe .description {
+    display: none !important;
+  }
+  .Iframe_body .LNIframe .description-date * {
+    font-size: 0.4em;
+  }
+}
