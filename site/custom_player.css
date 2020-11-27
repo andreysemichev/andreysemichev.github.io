@@ -115,6 +115,10 @@
   outline: none;
 }
 
+#buy-btn {
+  background-color: #d9534f;
+}
+
 @media screen and (max-width: 680px) {
   #countdown {
       font: 24px/1.5 w500;
