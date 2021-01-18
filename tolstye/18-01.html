@@ -15,91 +15,165 @@
       color: #000000;
       font-size: 16px;
     }
+    img {
+      /* display: block;
+      width: 100%; */
+    }
+    a {
+      text-decoration: none;
+    }
+    ul {
+      list-style: none;
+    }
+    li {
+      margin: 5px 20px;
+    }
+    html, body, .wrapper-out {
+      background-color: #383435;
+    }
     .wrapper {
-      width: 600px;
+      width: 650px;
+      padding: 0 20px;
       margin: 0 auto;
       font-family: arial, sans-serif;
-      background-color: #ffffff;
-      background-image: url("https://s7458738.sendpul.se/image/files/emailservice/userfiles/41a6b4bc8db20e0d90415063125cba787458738/bg_new.jpg");
-      background-position: bottom;
+      background-color:  #383435;
     }
-    .logo {
-      width: 100px;
+    .wrapper__header {
+      width: 650px;
+      padding: 0 20px;
       margin: 0 auto;
+      background-color: #383435;
+      height: 100px;
     }
-    .wrapper__footer, .wrapper__main {
-      margin-top: 25px;
-      padding: 0 35px;
+    .wrapper__main-text {
+      padding: 0 30px;
     }
-    .text {
-      margin: 10px 0px;
-      text-indent: 30px;
+    .wrapper__header-logo {
+      background-color: #383435;
+      padding-top: 10px;
+      display: block;
+      width: 80px;
+      padding-left: 30px;
+      /* margin: 0 auto; */
     }
-    .footer_socials {
-      width: 100%;
+    .wrapper__header-logo img {
+      width: 80px;
+      /* margin: 0 auto; */
     }
-    .footer_socials img, .footer_socials svg {
-      width: 25px;
-      margin: 0 auto;
+    .wrapper__main {
+      background-color:  #ffffff;;
     }
-    .footer_socials td {
-      width: 33.33%;
+    .wrapper__main-title {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .wrapper__main-cover {
+      padding-top: 30px;
+    }
+    .wrapper__main-cover-text {
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.9em;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    .wrapper__main-more {
+      padding: 45px 0;
+      padding-bottom: 0;
       text-align: center;
     }
+    .wrapper__main-more-btn {
+      text-align: center; font-weight: bold; text-transform: uppercase; text-decoration: none; background-color: #ffffff; border-radius: 30px; padding: 10px 30px;
+      border: 1px solid #000000;
+    }
+    .prog {
+      width: 100%;
+      vertical-align: top;
+    }
+    .prog td {
+      vertical-align: top;
+    }
+    .border-top-date {
+      margin-right: 10px;
+      color: #ef3842;
+      font-weight: 600;
+      width: 150px;
+    }
+    .arrow {
+      font-weight: bold;
+      color: #ef3842;
+    }
+    .table {
+      padding: 0 10px;
+      padding-bottom: 30px;
+    }
+    .wrapper__main-footer {
+      background-color: #383435;
+      color: #fffdfd;
+    }
+
+    .tab-sec {
+      
+    }
+
   </style>
 
-  <title>Персональная скидка на премьеру "Толстые. Нет в мире виноватых"</title>
+  <title>Бесплатный вебинар: «Как стать востребованным оператором и забыть про отсутствие заказов»</title>
 </head>
 <body>
-
+<div class="wrapper-out">
+  <div class="wrapper__header">
+    <a class="wrapper__header-logo"  href="https://theatersechenov.com/tolstyeonline" target="_blank">
+      <img src="https://andreysemichev.github.io/tolstye/theatre_logo_white.png" alt="logo_masterskaya_red">
+    </a>
+  </div>
   <div class="wrapper">
-    <img src="https://andreysemichev.github.io/tolstye/tolstye-header.png" alt="tolstye-header">
-    <div style="padding: 0 20px;">
-      <img src="http://andreysemichev.github.io/tolstye/hi-2.png" alt="hello">
-    </div>
-    
-    <div class="wrapper__main ">
-      <div class="text">В конце прошлого года состоялась премьера онлайн спектакля «Толстые. Нет в мире виноватых». Более 500 зрителей уже посмотрели это необычное, очень эмоциональное действо, почувствовали энергию прямого эфира, смогли задать вопросы создателям.</div>
-    </div>
-
-    <div class="wrapper__main ">
-      <div class="text"><b style="font-size: 1em; background-color: rgba(244, 204, 204, 0.5);;">6 февраля в 17.00 (мск)</b> мы приглашаем вас на первый постпремьерный показ спектакля. И вновь <b style="font-size: 1em; background-color: rgba(244, 204, 204, 0.5);;">встретимся со зрителями в прямом эфире</b> сразу после его окончания. Трансляция будет доступна до конца 11 февраля по мск.</div>
-    </div>
-
-    <div class="wrapper__main" style="margin-top: 50px;">
-      <div class="text" style="text-align: center;">
-        <div style="font-size: 0.9em;">Смотрите театр дома</div>
-        <div style="margin-top: 20px;">
-          <a target="_blank" style="text-align: center; font-weight: bold; text-transform: uppercase; text-decoration: none; background-color: #ffffff; border-radius: 30px; padding: 10px 30px;" href="https://theatersechenov.com/tolstyeonline">Купить билет</a>
+    <div class="wrapper__main" style="margin-bottom: 50px;">
+      <div class="wrapper__main-top">
+        <div class="wrapper__main-title" style="text-transform: uppercase; font-size: 1em; padding: 0 30px; padding-top: 40px;">Приглашаю на онлайн спектакль</div>
+        <div class="wrapper__main-title" style="padding: 5px 30px; font-size: 1.4em;">«Толстые. Нет в мире виноватых»</div>
+        <div class="wrapper__main-cover">
+          <a href="https://theatersechenov.com/tolstyeonline" target="_blank"><img src="https://andreysemichev.github.io/tolstye/tolstye-header.png" alt="cover" style="width: 100%;"></a>
+        </div>
+        <div class="wrapper__main-text">
+          <div>
+            <img src="http://andreysemichev.github.io/tolstye/hi-2.png" alt="hello" style="width: 80%;">
+          </div>
+        </div>
+        <div class="wrapper__main-text" style="margin-top: 20px;">
+          В конце прошлого года состоялась премьера онлайн спектакля «Толстые. Нет в мире виноватых». Более 500 зрителей уже посмотрели это необычное, очень эмоциональное действо, почувствовали энергию прямого эфира, смогли задать вопросы создателям.
+        </div>
+        <div class="wrapper__main-text" style="margin-top: 20px;">В конце прошлого года состоялась премьера онлайн спектакля «Толстые. Нет в мире виноватых». Более 500 зрителей уже посмотрели это необычное, очень эмоциональное действо, почувствовали энергию прямого эфира, смогли задать вопросы создателям.</div>
+        <div class="wrapper__main-text" style="margin-top: 20px;">6 февраля в 17.00 (мск) мы приглашаем вас на первый постпремьерный показ спектакля. И вновь встретимся со зрителями в прямом эфире сразу после его окончания. Трансляция будет доступна до конца 11 февраля по мск.</div>
+        <div class="wrapper__main-more" style="padding-bottom: 50px;">
+          <div style="margin-bottom: 20px; font-size: 0.9em;">Смотрите театр дома</div>
+          <a href="https://theatersechenov.com/tolstyeonline" class="wrapper__main-more-btn" target="_blank">Участвовать бесплатно</a>
         </div>
       </div>
     </div>
 
-    <div class="wrapper__main " style="margin-top: 60px;">
-      <div class="text">«Толстые. Нет в мире виноватых» - спектакль о семье, созданный семьей. В течение года я работала над дневниками и письмами Льва и Софьи Толстых, чтобы представить Вам этот волнующий диалог длиной в 48 лет. Мой муж, режиссер Алексей Сеченов, вместе с командой Sechenov.com стал его постановщиком. Мы с Алексеем исполнили роли Льва и Софьи Толстых.</div>
+    <div class="wrapper__main" style="margin-bottom: 40px; padding-top: 40px; padding-bottom: 40px;">
+      <div class="wrapper__main-text" style="margin-top: 20px;">«Толстые. Нет в мире виноватых» - спектакль о семье, созданный семьей. В течение года я работала над дневниками и письмами Льва и Софьи Толстых, чтобы представить Вам этот волнующий диалог длиной в 48 лет. Мой муж, режиссер Алексей Сеченов, вместе с командой Sechenov.com стал его постановщиком. Мы с Алексеем исполнили роли Льва и Софьи Толстых.</div>
+      <div class="wrapper__main-text" style="margin-top: 20px;">В спектакле звучит прямая речь Софьи и Льва из их писем, дневников, воспоминаний. Они объясняются в любви, благодарят и осуждают друг друга, срываются на крик и переходят на шёпот.</div>
+      <div class="wrapper__main-text" style="margin-top: 20px;">Рушатся многочисленные клише, связанные с этой парой. Возникают параллели с семейной жизнью каждого из нас. Обнажаются глубинные противоречия и глубокий смысл, заложенные в любом союзе мужчины и женщины.</div>
     </div>
 
-    <div class="wrapper__main ">
-      <div class="text">В спектакле звучит прямая речь Софьи и Льва из их писем, дневников, воспоминаний. Они объясняются в любви, благодарят и осуждают друг друга, срываются на крик и переходят на шёпот. 
-        Рушатся многочисленные клише, связанные с этой парой. Возникают параллели с семейной жизнью каждого из нас. Обнажаются глубинные противоречия и глубокий смысл, заложенные в любом союзе мужчины и женщины.</div>
-    </div>
 
-    <div class="wrapper__main " style="margin-top: 60px;">
-      <div class="text">Приходите в он-лайн театр на спектакль «Толстые. Нет в мире виноватых»
-        6 февраля 2021 года. <b style="font-size: 1em; background-color: rgba(244, 204, 204, 0.5);">До конца 22 января билет стоит 490 р.</b></div>
-    </div>
 
-    <div class="wrapper__main" style="margin-top: 50px;">
-      <div class="text" style="text-align: center;">
-        <div style="font-size: 0.9em;">Смотрите театр дома</div>
-        <div style="margin-top: 20px;">
-          <a target="_blank" style="text-align: center; font-weight: bold; text-transform: uppercase; text-decoration: none; background-color: #ffffff; border-radius: 30px; padding: 10px 30px;" href="https://theatersechenov.com/tolstyeonline">Купить билет</a>
-        </div>
+    <div class="wrapper__main" style="margin-bottom: 40px; padding-top: 40px; padding-bottom: 10px;">
+      <div class="wrapper__main-text" style="margin-top: 20px;">Приходите в онлайн театр на спектакль «Толстые. Нет в мире виноватых» 6 февраля 2021 года.</div>
+      <div class="wrapper__main-text" style="margin-top: 20px;"><b>До конца 22 января билет стоит 490 р</b>.</div>
+      <div class="wrapper__main-more" style="padding-bottom: 50px;">
+        <div style="margin-bottom: 20px; font-size: 0.9em;">Смотрите театр дома</div>
+        <a href="https://theatersechenov.com/tolstyeonline" class="wrapper__main-more-btn" target="_blank">Участвовать бесплатно</a>
       </div>
     </div>
 
-    <div style="padding: 0 20px; margin-top: 50px; padding-bottom: 20px;">
-      <img src="https://andreysemichev.github.io/tolstye/cite.png" alt="hello">
+    <div class="wrapper__main-footer" style="padding-bottom: 30px;">
+      <div>
+        <img src="https://andreysemichev.github.io/tolstye/cite2.png" alt="cite2" style="width: 400px;">
+      </div>
+
       <div style="text-align: right; width: 100%; padding-top: 15px;">
         <a target="_blank" href="https://www.facebook.com/sechenovcom" target="_blank"><img src="https://andreysemichev.github.io/tolstye/facebook.png" alt="facebook"></a>
         <a target="_blank" href="https://www.youtube.com/user/SECHENOVcom" target="_blank"><img style="margin-left: 10px;" src="https://andreysemichev.github.io/tolstye/youtube.png" alt="facebook"></a></a>
@@ -107,12 +181,8 @@
         <a target="_blank" href="https://t.me/mastersechenov" target="_blank"><img style="margin-left: 10px;" src="https://andreysemichev.github.io/tolstye/telegram.png" alt="telegram"></a></a>
       </div>
     </div>
-
-    
-  </div>
-  <div style="text-align: center; margin: 0 auto; margin-top: 15px; font-family: Arial, serif;">
-    <a style="text-decoration: none; font-size: 0.9em;" href="{{unsubscribe_url}}">Отписаться</a>
   </div>
 
+</div>
 </body>
 </html>
