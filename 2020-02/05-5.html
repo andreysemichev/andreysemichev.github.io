@@ -9,51 +9,14 @@
   <meta content="telephone=no" name="format-detection" />
 
   <style>
-    /* Глобальные элементы */
     * {
       padding: 0;
       margin: 0;
       box-sizing: border-box;
       color: #000000;
       font-size: 16px !important;
-      white-space: nowrap;
-    }
-    .wrapper {
-      width: 100%;
-      background-color: #383435;
       font-family: arial, sans-serif;
-      font-size: 16px !important;
     }
-    .link, .link:hover {
-      text-decoration: none;
-    }
-
-    /* Обертки */
-    .content {
-      margin: 0 auto;
-      padding: 0 30px;
-      padding-bottom: 30px;
-    }
-    .content__section-inner {
-      background-color: #ffffff;
-      padding: 50px 30px;
-    }
-    .content__section-split {
-      background-color: #383435;
-      padding-bottom: 50px;
-    }
-    .content__header-inner {
-      padding: 10px 30px;
-    }
-    .content__header .link {
-      display: block;
-    }
-    .content__header-logo {
-      display: block;
-      height: 80px !important;
-    }
-
-    /* Контент */
     .content__section-title {
       font-size: 16px !important;
       text-transform: uppercase;
@@ -69,18 +32,6 @@
       margin-bottom: 15px;
       line-height: 22px !important;
     }
-    .content__section-button {
-      display: block;
-      max-width: 350px;
-      background-color: #ff2d3a;
-      font-weight: 600;
-      text-transform: uppercase;
-      margin: 0 auto;
-      text-align: center;
-      color: #ffffff;
-      padding: 10px;
-      margin-top: 50px;
-    }
     .content__section-under {
       text-align: center;
       text-transform: uppercase;
@@ -88,124 +39,122 @@
       font-weight: bold;
       margin-top: 10px;
     }
-
-    /* Отдельные элементы */
-    .red-txt {
-      color: #ff2d3a;
-      font-weight: bold;
-    }
-
-    /* Красная кнопка */
     .wrapper__main-more-btn {
-      font-weight: 600;
-      text-transform: uppercase;
+
       padding: 0 5px;
-      background-color: #ff2d3a;
       color: #fffdfd;
       display: block;
       max-width: 350px;
       margin: 0 auto;
     }
     .wrapper__main-more-btn-link {
+      padding: 10px 40px 10px 40px;
+      height: 38px;
+      line-height: 18px;
+      width: 350px;
+      background-color: #ff2d3a;
+      font-weight: 600;
+      text-transform: uppercase;
       color: #ffffff;
       text-decoration: none;
       display: block;
-      padding-top: 12px;
-      padding-bottom: 12px;
+      margin: 0 auto;
       text-align: center;
     }
+    .block {
+      padding: 50px 30px;
+      margin: 0 30px;
+      margin-bottom: 50px;
+    }
+    .footer {
+      display: none;
+      font-size: 0;
+    }
   </style>
-
-  <title>Открыт шестой урок интенсива: «Организация работы съёмочной площадки»</title>
 
 </head>
 <body>
 
-  <div class="wrapper">
+  <div style="display:none; color: #383435; white-space: normal">«Как отлично снять ваше отличное шоу 2.0» &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;</div>
 
-    <!-- Подзаголовок -->
-    <div style="display:none; color: #383435; white-space: normal">«Как отлично снять ваше отличное шоу 2.0» &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;</div>
+  <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#383435"><tr><td>
+    <center>
 
-    <!-- <div class="gmailfix" style="white-space:nowrap; font:15px courier;">
-      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    </div> -->
-
-    <!-- Содержимое -->
-    <table class="content" cellpadding="0" cellspacing="0" width="650">
-      
-      <!-- Лого -->
-      <tr class="content__header"><td class="content__header-inner"> 
-        <a class="link" href="https://workshop.mastersechenov.com/teach/control/stream/view/id/202962663" target="_blank">
-          <img class="content__header-logo" src="https://andreysemichev.github.io/2020-01/10-logo.png" alt="logo_masterskaya_red">
+      <!-- Хедер -->
+      <table class="logo" cellpadding="0" cellspacing="0" width="650" style="margin: 0 30px;"><tr><td>
+        <a href="https://workshop.mastersechenov.com/teach/control/stream/view/id/202962663" target="_blank">
+          <img style="display: block;" src="https://andreysemichev.github.io/2020-02/new-logo.png" alt="logo_masterskaya_red">
         </a>
-      </td></tr>
-
-      <!-- Блок 1 -->
-      <tr class="content__section"><td class="content__section-inner">
+      </td></tr></table>
+      
+      <!-- Блок -->
+      <table class="block" cellpadding="0" cellspacing="0" width="650" bgcolor="#ffffff"><tr><td>
+        <img src="https://andreysemichev.github.io/2020-02/white.png" alt="wrapper" style="display: block;">
         <div class="content__section-title">Онлайн-интенсив:</div>
         <div class="content__section-title-name">«Как отлично снять ваше отличное шоу 2.0»</div>
-        <div class="content__section-text" style="margin-bottom: 0; padding-bottom: 50px;"><b>Шестой урок:</b> «Организация работы съёмочной площадки»: <br><a href="https://workshop.mastersechenov.com/teach/control/stream/view/id/202962663" target="_blank" class="red-txt link">уже доступен</a>.</div>
-
-        <span class="wrapper__main-more-btn">
-          <a href="https://workshop.mastersechenov.com/teach/control/stream/view/id/202962663" class="wrapper__main-more-btn-link" target="_blank">Войти в личный кабинет</a>
-        </span>
+        <div class="content__section-text" style="margin-bottom: 0; padding-bottom: 50px;"><b>Шестой урок:</b> «Организация работы съёмочной площадки»: <a href="https://workshop.mastersechenov.com/teach/control/stream/view/id/202962663" target="_blank" style="color: #ff2d3a; font-weight: bold; text-decoration: none;">уже доступен</a>.</div>
+        
+        <a href="https://workshop.mastersechenov.com/teach/control/stream/view/id/202962663"target="_blank">
+          <img src="https://andreysemichev.github.io/2020-02/button.png" alt="Войти в личный кабинет">
+        </a>
 
         <div class="content__section-under">И начать обучение</div>
-      </td></tr>
-
-      <!-- Разделитель -->
-      <tr><td class="content__section-split"></td></tr>
-
-      <!-- Блок 2 -->
-      <tr class="content__section"><td class="content__section-inner">
-        <div class="content__section-text">После просмотра урока составьте схему коммуникации вашей<br> съёмочной команды.</div>
-        <div class="content__section-text">Домашнее задание необходимо выполнить до 10:00 (по мск)<br> 12 февраля для того, чтобы открылась следующая лекция.</div>
-        <div class="content__section-text" style="margin-bottom: 0;">Алексей Сеченов проверит вашу работу, и куратор передаст вам<br> его комментарий.</div>
-      </td></tr>
-
-      <!-- Разделитель -->
-      <tr><td class="content__section-split"></td></tr>
+        <img src="https://andreysemichev.github.io/2020-02/white.png" alt="wrapper" style="display: block;">
+      </td></tr></table>
+      
+      <!-- Блок -->
+      <table class="block" cellpadding="0" cellspacing="0" width="650" bgcolor="#ffffff"><tr><td>
+        <img src="https://andreysemichev.github.io/2020-02/white.png" alt="wrapper" style="display: block;">
+        <div class="content__section-text">После просмотра урока составьте схему коммуникации вашей съёмочной команды.</div>
+        <div class="content__section-text">Домашнее задание необходимо выполнить до 10:00 (по мск) 12 февраля для того, чтобы открылась следующая лекция.</div>
+        <div class="content__section-text" style="margin-bottom: 0;">Алексей Сеченов проверит вашу работу, и куратор передаст вам его комментарий.</div>
+        <img src="https://andreysemichev.github.io/2020-02/white.png" alt="wrapper" style="display: block;">
+      </td></tr></table>
 
       <!-- Футер -->
-      <tr class="content__footer"><td class="content__footer-inner">
+      <table class="footer-tab" cellpadding="0" cellspacing="0" width="650" style="margin: 0 30px;"><tr><td>
         <div style="color:#ffffff; text-align: center;">Шоу – это жизнь. Режиссер – это человек, опережающий время.</div>
-        <div style="color:#ffffff;text-align: center;margin-bottom: 30px; padding-top: 5px;">Алексей Сеченов</div>
-        
-        <table cellpadding="0" cellspacing="0" width="590">
-          <tr>
-            <td>
-              <a class="link" href="https://mastersechenov.com/intensive" style="margin-right: 10px; color: #ef3842; text-transform: uppercase; font-size: 13px !important;" target="_blank">О интенсиве</a>
-              <a class="link" href="https://mastersechenov.com/intensive#program" style="margin-right: 10px; color: #ef3842; text-transform: uppercase; font-size: 13px !important;" target="_blank">Программа</a>
-              <a class="link" href="https://mastersechenov.com/intensive#master" style="color: #ef3842; text-transform: uppercase; font-size: 13px !important;" target="_blank">Мастер </a>
-            </td>
-            <td style="text-align: right;">
-              <a class="link" target="_blank" href="https://t.me/joinchat/T9G_jPnQxo3-6H6U">
-                <img style="width: 30px; display: inline-block;" src="https://andreysemichev.github.io/2020-01/telegram-red.png" alt="telegram">
-              </a>
-              <a class="link" target="_blank" href="https://www.facebook.com/mastersechenov/">
-                <img style="width: 30px; display: inline-block;" src="https://andreysemichev.github.io/2020-01/10-fb.png" alt="facebook">
-              </a>
-              <a target="_blank" href="https://www.instagram.com/mastersechenov/">
-                <img style="width: 30px; display: inline-block;" src="https://andreysemichev.github.io/2020-01/10-ig.png" alt="instagram">
-              </a>
-              <a target="_blank" href="https://www.youtube.com/c/SECHENOVcom">
-                <img style="width: 30px; display: inline-block;" src="https://andreysemichev.github.io/2020-01/10-yt.png" alt="youtube">
-              </a>
-            </td>
-          </tr>
-        </table>
+        <div style="color:#ffffff;text-align: center;margin-bottom: 50px; padding-top: 5px;">Алексей Сеченов</div>
+      </td></tr></table>
+      <table class="footer-tab" cellpadding="0" cellspacing="0" width="650" style="margin: 0 30px;">
+        <tr>
+          <td>
+            <a href="https://mastersechenov.com/intensive" style="margin-right: 10px; color: #ef3842; text-transform: uppercase; font-size: 13px !important; text-decoration: none;" target="_blank">О интенсиве</a>
+            <a href="https://mastersechenov.com/intensive#program" style="margin-right: 10px; color: #ef3842; text-transform: uppercase; font-size: 13px !important; text-decoration: none;" target="_blank">Программа</a>
+            <a href="https://mastersechenov.com/intensive#master" style="color: #ef3842; text-transform: uppercase; font-size: 13px !important; text-decoration: none;" target="_blank">Мастер </a>
+          </td>
+          <td style="text-align: right;">
+            <a class="link" target="_blank" href="https://t.me/joinchat/T9G_jPnQxo3-6H6U" style="text-decoration: none;">
+              <img style="width: 30px; display: inline-block;" src="https://andreysemichev.github.io/2020-01/telegram-red.png" alt="telegram">
+            </a>
+            <a class="link" target="_blank" href="https://www.facebook.com/mastersechenov/" style="text-decoration: none;">
+              <img style="width: 30px; display: inline-block;" src="https://andreysemichev.github.io/2020-01/10-fb.png" alt="facebook">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/mastersechenov/" style="text-decoration: none;">
+              <img style="width: 30px; display: inline-block;" src="https://andreysemichev.github.io/2020-01/10-ig.png" alt="instagram">
+            </a>
+            <a target="_blank" href="https://www.youtube.com/c/SECHENOVcom" style="text-decoration: none;">
+              <img style="width: 30px; display: inline-block;" src="https://andreysemichev.github.io/2020-01/10-yt.png" alt="youtube">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-top: 20px;">
+            <a style="font-size: 20px !important; color: #ef3842; text-decoration: none;" target="_blank">+7 996 965 71 35</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-top: 7px;">
+            <a style="font-size: 20px !important; color:rgb(239, 56, 66) !important;" target="_blank">help@mastersechenov.com</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-bottom: 40px;"><div style="padding-top: 25px; color: #fffdfd;">Ответим на ваши вопросы с 13:00 до 21:00 в будние дни</div></td>
+        </tr>
+      </table>
 
-        <div style="padding-top: 20px;"><a style="font-size: 1.3em !important; color: #ef3842; text-decoration: none;" target="_blank">+7 996 965 71 35</a></div>
-        <div style="padding-top: 3px;"><a style="font-size: 1.3em !important; color:rgb(239, 56, 66) !important;" target="_blank">help@mastersechenov.com</a></div>
-        <div style="padding-top: 25px; color: #fffdfd;">Ответим на ваши вопросы с 13:00 до 21:00 в будние дни</div>
-      </td></tr>
-
-    </table>
-
-  </div>
+    </center>
+  </td></tr></table>
 
 </body>
 </html>
